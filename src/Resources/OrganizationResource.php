@@ -29,7 +29,7 @@ final class OrganizationResource extends Resource
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-building-office-2';
 
-    protected static string|\UnitEnum|null $navigationGroup = 'Operations';
+    protected static string|\UnitEnum|null $navigationGroup = 'Maintenance';
 
     public static function form(Schema $schema): Schema
     {
